@@ -1,0 +1,91 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html
+<head>
+	<title>Di&aacute;rio Lusitano </title>
+	<link rel="stylesheet" type="text/css" href="css/layout-3.css">
+    <link rel="shortcut icon" href="img/iconesite.ico">
+<!-- script que apresenta data e hora atual-->
+        <script>
+
+function EscreveData() {
+var mydate=new Date()
+var year=mydate.getYear()
+if (year < 1000)
+year+=1900
+var day=mydate.getDay()
+var month=mydate.getMonth()
+var daym=mydate.getDate()
+if (daym<10)
+daym="0"+daym
+var dayarray=new
+Array("Domingo","Segunda-feira","Ter&ccedil;a-feira","Quarta-feira","Quinta-feira","Sexta-feira","S&aacute;bado")
+var montharray=new
+Array("Janeiro","Fevereiro","Mar&ccedil;o","Abril","Maio","Junho","Julho","Agosto","Setembro","Outubro","Novembro","Dezembro")
+document.write(""+dayarray[day]+", "+daym+" de "+montharray[month]+" de "+year+"</b></font></small>")
+}
+
+function EscreveHora() {
+agora = new Date (); horas = agora.getHours ();
+minutos = agora.getMinutes ();
+if (horas < 10) horas = "0" + horas;
+if (minutos < 10) minutos = "0" + minutos;
+document.write(horas+":" +minutos+ "h");
+}
+
+</script>
+</head>
+
+<body>
+	<div class="container">
+    <div class="logo">
+    	<img src="img/logotiposite.jpg">
+    </div>
+    <!--Menu-->
+   		<div class="menu">
+    		<ul class="menu-top" style="padding-top:8px">
+            	<li>
+                	<a href="index.html">In&iacute;cio</a>
+              </li>
+                <li>
+                	<a href="cultura.html">Cultura</a>
+              </li>
+                <li>
+                	<a href="politica.html">Pol&iacute;tica</a>
+              </li>
+                <li>
+                	<a href="desporto.html">Desporto</a>
+              </li>
+    			<li>
+                	<a href="ubi.html">UBI</a>
+              </li>
+			</ul>
+        </div>
+    <!--Main-->
+    <div class="main">
+    		<p align="right" class="data-hora"><script>EscreveData();</script>
+                <script>EscreveHora()</script></p>
+                <div class="newprincipal-centro">
+            	<p><img src="img/18.png"></p>
+                <p style="font-size:32px">Investigador da UBI publica na revista Science</p>
+                	<p style="font-size:24px">Ant&oacute;nio Tom&eacute; integra uma equipa internacional que avan&ccedil;ou com novos dados no que toca &agrave; forma&ccedil;&atilde;o de nuvens.</p>
+                    <p class="corpo">O docente da Universidade da Beira Interior (UBI), Ant&oacute;nio Tom&eacute;, faz parte de um grupo de investiga&ccedil;&atilde;o internacional que contribuiu para perceber melhor quais os elementos que contribuem para a forma&ccedil;&atilde;o de nuvens. O trabalho do grupo CLOUD &ndash; nuvem em ingl&ecirc;s, do acr&oacute;nimo Cosmics Leaving OUtdoor Droplets &ndash; foi publicado na prestigiada revista Science na &uacute;ltima semana.</p>
+
+					<p class="corpo">Ant&oacute;nio Tom&eacute; &eacute; docente do Departamento de F&iacute;sica e integra uma equipa que recebe ainda o contributo dos investigadores portugueses Ant&oacute;nio Amorim e Filipe Duarte Santos, do laborat&oacute;rio SIM da Universidade de Lisboa.</p>
+
+					<p class="corpo">O estudo, publicado com o t&iacute;tulo &ldquo;Oxidation products of biogenic emissions contribute to nucleation of atmospheric particles&rdquo;, mostra que as emiss&otilde;es das florestas podem ter um papel fundamental nos momentos iniciais da forma&ccedil;&atilde;o das nuvens. Sabia-se que neste processo &eacute; necess&aacute;rio &aacute;cido sulf&uacute;rico. No entanto, a concentra&ccedil;&atilde;o deste elemento n&atilde;o era suficiente para explicar a taxa de forma&ccedil;&atilde;o de part&iacute;culas que ocorre na atmosfera e que resultam em nuvens.</p>
+
+					<p class="corpo">As experi&ecirc;ncias levadas a cabo no CERN - Organiza&ccedil;&atilde;o Europeia para a Pesquisa Nuclear, na Su&iacute;&ccedil;a, apontam para o papel relevante dos vapores lan&ccedil;ados pelas &aacute;rvores, depois de passarem por um processo de oxida&ccedil;&atilde;o na atmosfera. Combinados com &aacute;cido sulf&uacute;rico, formam part&iacute;culas que s&atilde;o as sementes da forma&ccedil;&atilde;o de nuvens. Estes resultados ter&atilde;o um papel fundamental para a obten&ccedil;&atilde;o de modelos de previs&atilde;o mais precisos.</p>
+                    
+                    <p style="font-size:18px"><b>Desfio dos investigadores portugueses</b></p>
+
+					<p class="corpo">A equipa portuguesa da CLOUD trabalhou e continua a trabalhar nos sistemas de aquisi&ccedil;&atilde;o e armazenamento de dados, que cumpriu os prop&oacute;sitos no &acirc;mbito do armazenamento dos dados, controlo da experi&ecirc;ncia e apoio ao tratamento e an&aacute;lise dos dados. Os investigadores nacionais tiveram ainda uma participa&ccedil;&atilde;o ativa no desenvolvimento do sistema de ilumina&ccedil;&atilde;o de ultra violeta (UV), por fibras &oacute;ticas, permitindo, n&atilde;o apenas um ambiente livre de contamina&ccedil;&atilde;o, mas tamb&eacute;m um melhor controlo da temperatura da c&acirc;mara, onde decorreu a experi&ecirc;ncia.</p>
+
+					<p class="corpo">Nos testes CLOUD foram utilizados mais de uma dezena de instrumentos para medi&ccedil;&otilde;es de diversas quantidades associadas a aeross&oacute;is. Na sua grande maioria estes instrumentos s&atilde;o os mesmos que se utilizam nas medi&ccedil;&otilde;es atmosf&eacute;ricas, tendo a sua integra&ccedil;&atilde;o num sistema coerente e interligado de medi&ccedil;&otilde;es representado um desafio para a equipa portuguesa.</p>
+
+					<p style="font-size:18px"><b>Parceria internacional</b></p>
+                    
+                    <p class="corpo">CLOUD &eacute; uma parceria internacional e interdisciplinar de cientistas de Portugal (Universidade de Lisboa e Universidade da Beira Interior), da &Aacute;ustria (Universidade de Innsbruck, Universidade de Viena), da Finl&acirc;ndia (Instituto Meteorol&oacute;gico Finland&ecirc;s, Universidade de Eastern Finland, Universidade de Hels&iacute;nquia), da Alemanha (Johann Wolfgang Goethe University Frankfurt, Leibniz Institute for Research Troposheric e Karlsruhe Instutute of Technology), da R&uacute;ssia (Lebedev Physical Institute), da Su&iacute;&ccedil;a (CERN, Paul Scherrer Institute e TOFWERK AG), do Reino Unido (University de Leeds e Universidade de Manchester), da Su&eacute;cia (Universidade de Stockholm) e dos Estados Unidos da Am&eacute;rica (California Institute of Technology, Carnegie Mellon University, e Aerodyne Reserch Inc.).</p>
+                    <p align="right" class="publicado" style="font-size:12px"><i>publicado em</i>: quarta-feira, 14 de Maio de 2014</p>
+            </div>
+</body>
+</html>

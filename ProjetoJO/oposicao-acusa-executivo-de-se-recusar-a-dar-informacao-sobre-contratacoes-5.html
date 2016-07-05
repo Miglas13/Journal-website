@@ -1,0 +1,83 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html
+<head>
+	<title>Di&aacute;rio Lusitano </title>
+	<link rel="stylesheet" type="text/css" href="css/layout-3.css">
+    <link rel="shortcut icon" href="img/iconesite.ico">
+<!-- script que apresenta data e hora atual-->
+        <script>
+
+function EscreveData() {
+var mydate=new Date()
+var year=mydate.getYear()
+if (year < 1000)
+year+=1900
+var day=mydate.getDay()
+var month=mydate.getMonth()
+var daym=mydate.getDate()
+if (daym<10)
+daym="0"+daym
+var dayarray=new
+Array("Domingo","Segunda-feira","Ter&ccedil;a-feira","Quarta-feira","Quinta-feira","Sexta-feira","S&aacute;bado")
+var montharray=new
+Array("Janeiro","Fevereiro","Mar&ccedil;o","Abril","Maio","Junho","Julho","Agosto","Setembro","Outubro","Novembro","Dezembro")
+document.write(""+dayarray[day]+", "+daym+" de "+montharray[month]+" de "+year+"</b></font></small>")
+}
+
+function EscreveHora() {
+agora = new Date (); horas = agora.getHours ();
+minutos = agora.getMinutes ();
+if (horas < 10) horas = "0" + horas;
+if (minutos < 10) minutos = "0" + minutos;
+document.write(horas+":" +minutos+ "h");
+}
+
+</script>
+</head>
+
+<body>
+	<div class="container">
+    <div class="logo">
+    	<img src="img/logotiposite.jpg">
+    </div>
+    <!--Menu-->
+   		<div class="menu">
+    		<ul class="menu-top" style="padding-top:8px">
+            	<li>
+                	<a href="index.html">In&iacute;cio</a>
+              </li>
+                <li>
+                	<a href="cultura.html">Cultura</a>
+              </li>
+                <li>
+                	<a href="politica.html">Pol&iacute;tica</a>
+              </li>
+                <li>
+                	<a href="desporto.html">Desporto</a>
+              </li>
+    			<li>
+                	<a href="ubi.html">UBI</a>
+              </li>
+			</ul>
+        </div>
+    <!--Main-->
+    <div class="main">
+    		<p align="right" class="data-hora"><script>EscreveData();</script>
+                <script>EscreveHora()</script></p>
+                <div class="newprincipal-centro">
+            	<p><img src="img/5.png"></p>
+                <p style="font-size:32px">Oposi&ccedil;&atilde;o acusa executivo de se recusar a dar informa&ccedil;&atilde;o sobre contrata&ccedil;&otilde;es</p>
+                	<p style="font-size:24px">Os quatro vereadores na C&acirc;mara da Covilh&atilde; acusam V&iacute;tor Pereira de falta de transpar&ecirc;ncia</p>
+                    <p class="corpo">Os quatro vereadores da oposi&ccedil;&atilde;o na C&acirc;mara Municipal da Covilh&atilde; acusam o presidente do munic&iacute;pio de incumprimento da lei, ao n&atilde;o agendar assuntos solicitados pelo MAC, e v&atilde;o exigir a marca&ccedil;&atilde;o de uma reuni&atilde;o extraordin&aacute;ria para a discuss&atilde;o dos pontos que V&iacute;tor Pereira decidiu n&atilde;o incluir na ordem de trabalhos da reuni&atilde;o privada da &uacute;ltima sexta-feira, 9.</p>
+
+					<p class="corpo">&quot;Se n&atilde;o for marcada pelo presidente, vai ser marcada por n&oacute;s&quot;, sublinhou Pedro Farromba, do MAC, ap&oacute;s a leitura de um comunicado em conjunto com Joaquim Matias, do PSD, e Jos&eacute; Pinto, do PCP.</p>
+
+					<p class="corpo">As mat&eacute;rias solicitadas dizem respeito ao pedido de informa&ccedil;&otilde;es sobre as contrata&ccedil;&otilde;es feitas pela autarquia desde 20 de Outubro, dia em que o actual executivo tomou posse. Desde todos os novos contratos de trabalho celebrados pelo munic&iacute;pio e empresas municipais a todos os contratos de &lsquo;outsourcing&rsquo; e todas as despesas relativas a desloca&ccedil;&otilde;es, alojamento e alimenta&ccedil;&atilde;o do presidente e vereadores.</p>
+
+					<p class="corpo">V&iacute;tor Pereira justifica o indeferimento do requerimento apresentado por Pedro Farromba e Marta Al&ccedil;ada por se tratarem de assuntos &quot;da exclusiva compet&ecirc;ncia do presidente&quot;. O presidente da edilidade considera ainda que o pedido n&atilde;o &eacute; mais que &quot;uma cortina de fumo para assuntos que vir&atilde;o a seu tempo a p&uacute;blico&quot;, relacionados com a auditoria em curso &agrave;s contas do munic&iacute;pio. &quot;N&atilde;o lhe assiste raz&atilde;o. &Eacute; ao presidente da c&acirc;mara que compete agendar quando s&atilde;o mat&eacute;rias da sua compet&ecirc;ncia&quot;, argumenta o autarca socialista, que acrescenta n&atilde;o haver &quot;nada a esconder&quot;. E se V&iacute;tor Pereira entende que Pedro Farromba foi &quot;mal aconselhado t&eacute;cnico-juridicamente&quot;, a oposi&ccedil;&atilde;o acusa o edil de estar a violar a lei, por estar a confundir um pedido de informa&ccedil;&atilde;o com a escolha das pessoas contratadas.</p>
+
+					<p class="corpo">&quot;O que o presidente alega &eacute; que queremos ser n&oacute;s a escolher as pessoas. N&oacute;s s&oacute; queremos ser informados&quot;, salienta o vereador do MAC, ex-vice-presidente da autarquia covilhanense. &quot;A ordem do dia deve incluir os assuntos indicados pelo respectivo &oacute;rg&atilde;o. E quem faz a agenda &eacute; obrigado a inclu&iacute;-los&quot;, vinca.</p>
+                    <p align="right" class="publicado" style="font-size:12px"><i>publicado em</i>: quarta-feira, 15 de Maio de 2014</p>
+            </div>
+</body>
+</html>

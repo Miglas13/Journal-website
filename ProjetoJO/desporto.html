@@ -1,0 +1,120 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html
+<head>
+	<title>Di&aacute;rio Lusitano </title>
+	<link rel="stylesheet" type="text/css" href="css/layout-2.css">
+    <link rel="shortcut icon" href="img/iconesite.ico">
+     <script>
+
+function EscreveData() {
+var mydate=new Date()
+var year=mydate.getYear()
+if (year < 1000)
+year+=1900
+var day=mydate.getDay()
+var month=mydate.getMonth()
+var daym=mydate.getDate()
+if (daym<10)
+daym="0"+daym
+var dayarray=new
+Array("Domingo","Segunda-feira","Ter&ccedil;a-feira","Quarta-feira","Quinta-feira","Sexta-feira","S&aacute;bado")
+var montharray=new
+Array("Janeiro","Fevereiro","Mar&ccedil;o","Abril","Maio","Junho","Julho","Agosto","Setembro","Outubro","Novembro","Dezembro")
+document.write(""+dayarray[day]+", "+daym+" de "+montharray[month]+" de "+year+"</b></font></small>")
+}
+
+function EscreveHora() {
+agora = new Date (); horas = agora.getHours ();
+minutos = agora.getMinutes ();
+if (horas < 10) horas = "0" + horas;
+if (minutos < 10) minutos = "0" + minutos;
+document.write(horas+":" +minutos+ "h");
+}
+
+</script>
+</head>
+
+<body>
+	<div class="container">
+    <div class="logo">
+    	<img src="img/logotiposite.jpg">
+    </div>
+    <!--Menu-->
+   		<div class="menu">
+    		<ul class="menu-top" style="padding-top:8px">
+            	<li>
+                	<a href="index.html">In&iacute;cio</a>
+              </li>
+                <li>
+                	<a href="cultura.html">Cultura</a>
+              </li>
+                <li>
+                	<a href="politica.html">Pol&iacute;tica</a>
+              </li>
+                <li>
+                	<a href="desporto.html">Desporto</a>
+              </li>
+    			<li>
+                	<a href="ubi.html">UBI</a>
+              </li>
+			</ul>
+        </div>
+        <div class="main">
+         <p align="right" class="data-hora"><script>EscreveData();</script>
+                <script>EscreveHora()</script></p>
+             <div class="central">
+             <table>
+               	<tr>
+               		<td valign="top" style="border-right:1px solid #000">
+        	<div class="news-esq">
+        		<ul>
+                	<li><a href="basquetebol-regressa-aos-penedos-altos-14.html">Basquetebol regressa aos Penedos Altos</a>
+                    <p class="data"><i>21-05-2014</i></p>
+                    <p>Acad&eacute;mico dos Penedos Altos e o Clube Desportivo da Covilh&atilde; acordaram dinamizar a pratica do basquetebol.</p></li>
+                    <hr>
+                	<li><a href="taca-de-portugal-de-btt-no-fundao-6.html">Ta&ccedil;a de Portugal de BTT no Fund&atilde;o</a>
+                    <p class="data"><i>14-05-2014</i></p>
+            	<p>A prova de ciclismo disputou-se no fim-de- semana, no Parque do Convento.</p></li>
+            	<hr>
+            	<li><a href="serranos-empatam-nos-acores-no-fecho-da-ii-liga-7.html">Serranos empatam nos A&ccedil;ores no fecho da II Liga</a>
+                <p class="data"><i>14-05-2014</i></p>
+            	<p>A desloca&ccedil;&atilde;o ao campo do Santa Clara deu em empate a uma bola na &uacute;ltima jornada do campeonato.</p></li>
+            	<hr>
+                <li><a href="manutencao-selada-13.html">Manuten&ccedil;&atilde;o selada</a>
+                <p class="data"><i>07-05-2014</i></p>
+                <p>Covilh&atilde; bate Leix&otilde;es por 1-0 e garante manuten&ccedil;&atilde;o</p></li>
+                <hr>
+                <li><a href="futsal-do-fundao-faz-historia-15.html">Futsal do Fund&atilde;o faz hist&oacute;ria</a>
+                <p class="data"><i>07-05-2014</i></p>
+                <p>Desportiva ganha Ta&ccedil;a de Portugal</p></li>
+                <hr>
+            </ul>
+            </div>
+            </td>
+             <td valign="top">
+            	<div class="ultima-hora">
+                               	<p style="font-size:24"><b><u>&Uacute;ltima Hora</u></b></p>
+                                        <ul>
+                                            <li>
+                                                <a href="ameaca-de-boicote-as-eleicoes-devio-ao-fecho-de-escolas-16.html">Amea&ccedil;a de boicote &agrave;s elei&ccedil;&otilde;es devido ao fecho de escolas</a>
+                                            </li>
+                                            <br>
+                                            <li>
+<a href="basquetebol-regressa-aos-penedos-altos-14.html">Basquetebol regressa aos Penedos Altos</a>
+                                            </li>
+                                            <br>
+                                            <li>
+                                             <a href="sim-ou-nao-rendimento-basico-incondicional-20.html">Sim ou n&atilde;o: Rendimento B&aacute;sico Incondicional</a>
+                                            </li>
+                                            <br>
+                                            <li>
+                                                <a href="alunos-de-design-industrial-projetam-garrafa-19.html">Alunos de Design Industrial projetam garrafa</a>
+                                            </li>
+                                        </ul>
+        </div>
+        </td>
+        </tr>
+        </table>
+        </div>    
+</body>
+</html>

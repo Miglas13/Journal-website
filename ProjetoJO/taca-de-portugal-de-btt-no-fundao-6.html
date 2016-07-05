@@ -1,0 +1,79 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html
+<head>
+	<title>Di&aacute;rio Lusitano </title>
+	<link rel="stylesheet" type="text/css" href="css/layout-3.css">
+    <link rel="shortcut icon" href="img/iconesite.ico">
+<!-- script que apresenta data e hora atual-->
+        <script>
+
+function EscreveData() {
+var mydate=new Date()
+var year=mydate.getYear()
+if (year < 1000)
+year+=1900
+var day=mydate.getDay()
+var month=mydate.getMonth()
+var daym=mydate.getDate()
+if (daym<10)
+daym="0"+daym
+var dayarray=new
+Array("Domingo","Segunda-feira","Ter&ccedil;a-feira","Quarta-feira","Quinta-feira","Sexta-feira","S&aacute;bado")
+var montharray=new
+Array("Janeiro","Fevereiro","Mar&ccedil;o","Abril","Maio","Junho","Julho","Agosto","Setembro","Outubro","Novembro","Dezembro")
+document.write(""+dayarray[day]+", "+daym+" de "+montharray[month]+" de "+year+"</b></font></small>")
+}
+
+function EscreveHora() {
+agora = new Date (); horas = agora.getHours ();
+minutos = agora.getMinutes ();
+if (horas < 10) horas = "0" + horas;
+if (minutos < 10) minutos = "0" + minutos;
+document.write(horas+":" +minutos+ "h");
+}
+
+</script>
+</head>
+
+<body>
+	<div class="container">
+    <div class="logo">
+    	<img src="img/logotiposite.jpg">
+    </div>
+    <!--Menu-->
+   		<div class="menu">
+    		<ul class="menu-top" style="padding-top:8px">
+            	<li>
+                	<a href="index.html">In&iacute;cio</a>
+              </li>
+                <li>
+                	<a href="cultura.html">Cultura</a>
+              </li>
+                <li>
+                	<a href="politica.html">Pol&iacute;tica</a>
+              </li>
+                <li>
+                	<a href="desporto.html">Desporto</a>
+              </li>
+    			<li>
+                	<a href="ubi.html">UBI</a>
+              </li>
+			</ul>
+        </div>
+    <!--Main-->
+    <div class="main">
+    		<p align="right" class="data-hora"><script>EscreveData();</script>
+                <script>EscreveHora()</script></p>
+                <div class="newprincipal-centro">
+            	<p><img src="img/6.png"></p>
+                <p style="font-size:32px">Ta&ccedil;a de Portugal de BTT no Fund&atilde;o</p>
+                	<p style="font-size:24px">A prova de ciclismo disputou-se no fim-de- semana, no Parque do Convento.</p>
+                    <p class="corpo">A terceira etapa da Ta&ccedil;a de Portugal de XCO em BTT Categoria Internacional C3 disputa-se na cidade do Fund&atilde;o. A prova organizada pelo Munic&iacute;pio do Fund&atilde;o, BTTGardunha – Clube de Ciclismo, Federa&ccedil;&atilde;o Portuguesa de Ciclismo e Union Cycliste Internationale decorre no fim-de-semana, dias 17 e 18, no Parque do Convento. A etapa &eacute; composta por categorias para todas as idades e ambos os sexos (Cadetes, Juniores, Sub-23, Elites e Masters).</p>
+
+					<p class="corpo">De acordo com o programa, no s&aacute;bado decorrem os treinos, a partir das 10h15, para a primeira de duas sess&otilde;es. A competi&ccedil;&atilde;o a s&eacute;rio &eacute; domingo, com tr&ecirc;s corridas. A primeira &agrave;s 10h00, a segunda &agrave;s 12h30 e, por fim, &agrave;s 14h45 tem in&iacute;cio a Corrida 3.</p>
+
+					<p class="corpo">&ldquo;Com este evento pretende-se inscrever a Serra da Gardunha como um dos locais de elei&ccedil;&atilde;o para a pr&aacute;tica de BTT, realizando uma prova de alto n&iacute;vel nacional, com um percurso de 4500 metros de comprimento”, Segundo a C&acirc;mara do Fund&atilde;o.</p>
+                    <p align="right" class="publicado" style="font-size:12px"><i>publicado em</i>: quarta-feira, 14 de Maio de 2014</p>
+            </div>
+</body>
+</html>

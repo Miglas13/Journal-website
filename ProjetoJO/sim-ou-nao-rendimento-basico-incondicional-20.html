@@ -1,0 +1,85 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html
+<head>
+	<title>Di&aacute;rio Lusitano </title>
+	<link rel="stylesheet" type="text/css" href="css/layout-3.css">
+    <link rel="shortcut icon" href="img/iconesite.ico">
+<!-- script que apresenta data e hora atual-->
+        <script>
+
+function EscreveData() {
+var mydate=new Date()
+var year=mydate.getYear()
+if (year < 1000)
+year+=1900
+var day=mydate.getDay()
+var month=mydate.getMonth()
+var daym=mydate.getDate()
+if (daym<10)
+daym="0"+daym
+var dayarray=new
+Array("Domingo","Segunda-feira","Ter&ccedil;a-feira","Quarta-feira","Quinta-feira","Sexta-feira","S&aacute;bado")
+var montharray=new
+Array("Janeiro","Fevereiro","Mar&ccedil;o","Abril","Maio","Junho","Julho","Agosto","Setembro","Outubro","Novembro","Dezembro")
+document.write(""+dayarray[day]+", "+daym+" de "+montharray[month]+" de "+year+"</b></font></small>")
+}
+
+function EscreveHora() {
+agora = new Date (); horas = agora.getHours ();
+minutos = agora.getMinutes ();
+if (horas < 10) horas = "0" + horas;
+if (minutos < 10) minutos = "0" + minutos;
+document.write(horas+":" +minutos+ "h");
+}
+
+</script>
+</head>
+
+<body>
+	<div class="container">
+    <div class="logo">
+    	<img src="img/logotiposite.jpg">
+    </div>
+    <!--Menu-->
+   		<div class="menu">
+    		<ul class="menu-top" style="padding-top:8px">
+            	<li>
+                	<a href="index.html">In&iacute;cio</a>
+              </li>
+                <li>
+                	<a href="cultura.html">Cultura</a>
+              </li>
+                <li>
+                	<a href="politica.html">Pol&iacute;tica</a>
+              </li>
+                <li>
+                	<a href="desporto.html">Desporto</a>
+              </li>
+    			<li>
+                	<a href="ubi.html">UBI</a>
+              </li>
+			</ul>
+        </div>
+    <!--Main-->
+    <div class="main">
+    		<p align="right" class="data-hora"><script>EscreveData();</script>
+                <script>EscreveHora()</script></p>
+                <div class="newprincipal-centro">
+            	<p><img src="img/20.png"></p>
+                <p style="font-size:32px">Sim ou n&atilde;o: Rendimento B&aacute;sico Incondicional</p>
+                	<p style="font-size:24px">Rendimento B&aacute;sico Incondicional em discuss&atilde;o na UBI.</p>
+                    <p class="corpo">V&aacute;rios investigadores e sindicalistas estiveram juntos na UBI para discutir o tema do Rendimento B&aacute;sico Incondicional. Este &eacute; uma presta&ccedil;&atilde;o atribu&iacute;da a cada cidad&atilde;o independentemente da sua situa&ccedil;&atilde;o financeira, familiar ou profissional, e suficiente para permitir uma vida com dignidade&rdquo;. O RBI pretende-se Universal, Incondicional, Individual e Suficiente para viver com dignidade.</p>
+
+					<p class="corpo">Os especialistas reunidos discutiram o conceito e as consequ&ecirc;ncias poss&iacute;veis do estabelecimento de uma presta&ccedil;&atilde;o desse g&eacute;nero. Uma das quest&otilde;es mais importantes debatidas no passado dia sete de maio foi a falta de campanhas por um trabalho ativo, como referiu a investigadora de hist&oacute;ria contempor&acirc;nea da Universidade Nova de Lisboa, Raquel Varela.</p>
+
+					<p class="corpo">Numa posi&ccedil;&atilde;o clara contra o Rendimento B&aacute;sico Incondicional, a investigadora exp&otilde;e que ao defendermos &ldquo;esta ideia generosa, onde o pobre e o rico t&ecirc;m acesso a todos os bens de forma igual&rdquo;, podemos estar a contribuir para uma &ldquo;mercantiliza&ccedil;&atilde;o do estado social&rdquo;, explica Raquel Varela.</p>
+
+					<p class="corpo">Por outro lado, h&aacute; quem defenda este tipo de rendimento e veja nele uma solu&ccedil;&atilde;o para a pobreza. Para os que afirmam que este rendimento &eacute; uma explora&ccedil;&atilde;o para com as pessoas que trabalham, o investigador do Grupo de Teoria Pol&iacute;tica do Centro de Estudos Human&iacute;sticos da Universidade do Minho, Roberto Merril, explica: &ldquo;Este rendimento permite &agrave;queles que n&atilde;o querem trabalhar, darem oportunidade &agrave;queles aqueles que querem&rdquo;.</p>
+                    
+                    <p class="corpo">Para a UGT (Uni&atilde;o Geral de Trabalhadores) a primazia &eacute; o emprego, focando todas as quest&otilde;es no &ldquo;combate ao desemprego, e n&atilde;o em formas alternativas das pessoas manterem a sua sobreviv&ecirc;ncia, ou mesmo o seu bem-estar&rdquo;, at&eacute; porque para a central sindical, &ldquo;o emprego dignifica o ser humano&rdquo;, explica a secret&aacute;ria executiva da UGT, Catarina Albergaria.</p>
+
+					<p class="corpo">Com uma palestra reduzida mas ainda assim participava, Raquel Varela confessa que este tipo de discuss&atilde;o &eacute; importante, at&eacute; porque &ldquo;o que hoje aqui est&aacute; a ser feito &eacute; rar&iacute;ssimo no mundo acad&eacute;mico e pol&iacute;tico&rdquo;.</p>
+                    <p align="right" class="publicado" style="font-size:12px"><i>publicado em</i>: quarta-feira, 14 de Maio de 2014</p>
+            </div>
+</body>
+</html>

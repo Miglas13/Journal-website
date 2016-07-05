@@ -1,0 +1,85 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html
+<head>
+	<title>Di&aacute;rio Lusitano </title>
+	<link rel="stylesheet" type="text/css" href="css/layout-3.css">
+    <link rel="shortcut icon" href="img/iconesite.ico">
+<!-- script que apresenta data e hora atual-->
+        <script>
+
+function EscreveData() {
+var mydate=new Date()
+var year=mydate.getYear()
+if (year < 1000)
+year+=1900
+var day=mydate.getDay()
+var month=mydate.getMonth()
+var daym=mydate.getDate()
+if (daym<10)
+daym="0"+daym
+var dayarray=new
+Array("Domingo","Segunda-feira","Ter&ccedil;a-feira","Quarta-feira","Quinta-feira","Sexta-feira","S&aacute;bado")
+var montharray=new
+Array("Janeiro","Fevereiro","Mar&ccedil;o","Abril","Maio","Junho","Julho","Agosto","Setembro","Outubro","Novembro","Dezembro")
+document.write(""+dayarray[day]+", "+daym+" de "+montharray[month]+" de "+year+"</b></font></small>")
+}
+
+function EscreveHora() {
+agora = new Date (); horas = agora.getHours ();
+minutos = agora.getMinutes ();
+if (horas < 10) horas = "0" + horas;
+if (minutos < 10) minutos = "0" + minutos;
+document.write(horas+":" +minutos+ "h");
+}
+
+</script>
+</head>
+
+<body>
+	<div class="container">
+    <div class="logo">
+    	<img src="img/logotiposite.jpg">
+    </div>
+    <!--Menu-->
+   		<div class="menu">
+    		<ul class="menu-top" style="padding-top:8px">
+            	<li>
+                	<a href="index.html">In&iacute;cio</a>
+              </li>
+                <li>
+                	<a href="cultura.html">Cultura</a>
+              </li>
+                <li>
+                	<a href="politica.html">Pol&iacute;tica</a>
+              </li>
+                <li>
+                	<a href="desporto.html">Desporto</a>
+              </li>
+    			<li>
+                	<a href="ubi.html">UBI</a>
+              </li>
+			</ul>
+        </div>
+    <!--Main-->
+    <div class="main">
+    		<p align="right" class="data-hora"><script>EscreveData();</script>
+                <script>EscreveHora()</script></p>
+                <div class="newprincipal-centro">
+            	<p><img src="img/19.png"></p>
+                <p style="font-size:32px">Alunos de Design Industrial projetam garrafa</p>
+                	<p style="font-size:24px">Na cadeira de Projeto, est&atilde;o a ser desenvolvidas ideias para garrafas que v&atilde;o concorrer ao concurso Glassberries, da BA Vidro.</p>
+                    <p class="corpo">Os alunos da cadeira de Projeto da licenciatura de Design Industrial est&atilde;o a participar num concurso internacional da empresa BA Vidro, que se destina a seleccionar uma nova garrafa para uma bebida espirituosa. O desafio foi lan&ccedil;ado no in&iacute;cio do ano e adoptado pelos respons&aacute;veis do curso com o objectivo de colocar os alunos perante o contexto real de concep&ccedil;&atilde;o de um produto. Os respons&aacute;veis da empresa estiveram na Universidade da Beira Interior (UBI) na &uacute;ltima semana a avaliar tecnicamente os trabalhos, ainda em fase de projec&ccedil;&atilde;o.</p>
+
+					<p class="corpo">N&atilde;o &eacute; a primeira vez que os alunos da disciplina trabalham de perto com empresas. &ldquo;Todos os anos temos tido oportunidade de trabalhar com v&aacute;rias empresas. J&aacute; colaboramos com a Joalpe e a Fapil&rdquo;, conta Ab&iacute;lio Silva, director do Curso de Design Industrial e docente do Departamento de Engenharia Eletromec&acirc;nica.</p>
+
+					<p class="corpo">Este ano surgiu a oportunidade de participar no concurso da vidreira da Marinha Grande intitulado Glassberries, que se estende a tr&ecirc;s pa&iacute;ses:</p>
+
+					<p class="corpo">Portugal, Espanha e Pol&oacute;nia. O concurso pretende que os projectos resultem num produto e permitir&aacute; ao vencedor estagiar na Barbosa e Almeida.</p>
+                    
+                    <p class="corpo">&ldquo;Temos um j&uacute;ri internacional que os vai avaliar e posteriormente todos estes trabalhos v&atilde;o fazer parte do portf&oacute;lio da BA Vidro. Pretendemos apresenta-los aos nossos clientes, para que as garrafas possam ser produzidas&rdquo;, explica Ana Pinho, elemento da empresa que na ter&ccedil;a-feira, dia 13, esteve na UBI a participar na reuni&atilde;o t&eacute;cnica.</p>
+
+					<p class="corpo">Os alunos est&atilde;o, assim, a produzir como se fizessem parte de um departamento de uma unidade fabril, &ldquo;em contacto com o mundo real&rdquo;, como sublinha Ab&iacute;lio Silva. &ldquo;Colocamos os estudantes perante as dificuldades que v&atilde;o experimentar quando estiverem num gabinete de design, a produzir para um cliente. Por outro lado, mostra um pouco aquilo que fazemos com os nossos alunos, para que a empresa conhe&ccedil;a o que aqui fazemos em termos de forma&ccedil;&atilde;o de Design Industrial&rdquo;, conclui o director do curso.</p>
+                    <p align="right" class="publicado" style="font-size:12px"><i>publicado em</i>: quarta-feira, 14 de Maio de 2014</p>
+            </div>
+</body>
+</html>

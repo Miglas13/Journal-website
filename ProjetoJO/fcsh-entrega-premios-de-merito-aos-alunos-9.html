@@ -1,0 +1,83 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html
+<head>
+	<title>Di&aacute;rio Lusitano </title>
+	<link rel="stylesheet" type="text/css" href="css/layout-3.css">
+    <link rel="shortcut icon" href="img/iconesite.ico">
+<!-- script que apresenta data e hora atual-->
+        <script>
+
+function EscreveData() {
+var mydate=new Date()
+var year=mydate.getYear()
+if (year < 1000)
+year+=1900
+var day=mydate.getDay()
+var month=mydate.getMonth()
+var daym=mydate.getDate()
+if (daym<10)
+daym="0"+daym
+var dayarray=new
+Array("Domingo","Segunda-feira","Ter&ccedil;a-feira","Quarta-feira","Quinta-feira","Sexta-feira","S&aacute;bado")
+var montharray=new
+Array("Janeiro","Fevereiro","Mar&ccedil;o","Abril","Maio","Junho","Julho","Agosto","Setembro","Outubro","Novembro","Dezembro")
+document.write(""+dayarray[day]+", "+daym+" de "+montharray[month]+" de "+year+"</b></font></small>")
+}
+
+function EscreveHora() {
+agora = new Date (); horas = agora.getHours ();
+minutos = agora.getMinutes ();
+if (horas < 10) horas = "0" + horas;
+if (minutos < 10) minutos = "0" + minutos;
+document.write(horas+":" +minutos+ "h");
+}
+
+</script>
+</head>
+
+<body>
+	<div class="container">
+    <div class="logo">
+    	<img src="img/logotiposite.jpg">
+    </div>
+    <!--Menu-->
+   		<div class="menu">
+    		<ul class="menu-top" style="padding-top:8px">
+            	<li>
+                	<a href="index.html">In&iacute;cio</a>
+              </li>
+                <li>
+                	<a href="cultura.html">Cultura</a>
+              </li>
+                <li>
+                	<a href="politica.html">Pol&iacute;tica</a>
+              </li>
+                <li>
+                	<a href="desporto.html">Desporto</a>
+              </li>
+    			<li>
+                	<a href="ubi.html">UBI</a>
+              </li>
+			</ul>
+        </div>
+    <!--Main-->
+    <div class="main">
+    		<p align="right" class="data-hora"><script>EscreveData();</script>
+                <script>EscreveHora()</script></p>
+                <div class="newprincipal-centro">
+            	<p><img src="img/9.png"></p>
+                <p style="font-size:32px">FCSH entrega pr&eacute;mios de m&eacute;rito aos alunos</p>
+                	<p style="font-size:24px">A Faculdade de Ci&ecirc;ncias Sociais e Humanas realizou no dia sete de maio a primeira cerim&oacute;nia de reconhecimento de M&eacute;rito dos seus alunos, assinalado com a entrega de diplomas. A cerim&oacute;nia ficou ainda marcada pela assinatura de um protocolo de coopera&ccedil;&atilde;o entre a UBI e o Comit&eacute; Ol&iacute;mpico de Portugal.</p>
+                    <p class="corpo">Ap&oacute;s da distribui&ccedil;&atilde;o dos pr&eacute;mios de m&eacute;rito ao melhor aluno de cada curso que decorreu na cerim&oacute;nia do 28&ordm; anivers&aacute;rio da UBI, a Faculdade de Ci&ecirc;ncias Sociais e Humanas, na v&eacute;spera do seu pr&oacute;prio anivers&aacute;rio, entregou diplomas de m&eacute;rito aos alunos do primeiro ciclo que tiveram media igual ou superior a 16 valores no ano letivo anterior.</p>
+
+					<p class="corpo">A cerim&oacute;nia abriu com a interven&ccedil;&atilde;o de Jo&atilde;o Canavilhas, Vice-Reitor da UBI, que afirmou que &ldquo;a excel&ecirc;ncia deve ser premiada e destacada, porque n&atilde;o queremos que os alunos tenham apenas aprova&ccedil;&atilde;o &agrave;s cadeiras, mas queremos mais que isso&rdquo;. Para al&eacute;m disto o vice-reitor falou da import&acirc;ncia do estudo, que leva aos alunos ubianos a terem classifica&ccedil;&otilde;es elevadas: &ldquo;Quando as pessoas estudam com prazer e gostam daquilo que fazem, naturalmente o estudo passa a ser algo que fazem com gosto&rdquo;.</p>
+
+					<p class="corpo">Na cerim&oacute;nia de m&eacute;rito foram entregues 16 diplomas pelos diretores de curso, dos quais tr&ecirc;s pertenceram ao curso de Ci&ecirc;ncia Politica e Rela&ccedil;&otilde;es Internacionais, um ao curso de Ci&ecirc;ncias do Desporto, quatro ao curso de Economia, dois ao curso de Gest&atilde;o, cinco ao curso Psicologia, e um ao curso de Sociologia. A aluna premiada, Ana Lucas, de Ci&ecirc;ncias do Desporto, afirmou que ser uma das melhores &eacute; &ldquo;um lema de vida para voar mais alto&rdquo;.</p>
+
+					<p class="corpo">Presidente da &uacute;nica Faculdade das cinco existentes na UBI a atribuir diplomas de m&eacute;rito aos alunos, Pedro Guedes de Carvalho disse que &ldquo;o diploma n&atilde;o &eacute; mais do que um peda&ccedil;o de papel assinado com umas palavras de elogio, mas &eacute; importante porque fica anexado ao curriculum. Nesta faculdade premiamos e reconhecemos o m&eacute;rito dos alunos que se esfor&ccedil;aram o suficiente para ter m&eacute;dias acima dos 16 valores&rdquo;.</p>
+
+					<p class="corpo">A cerim&oacute;nia de Reconhecimento de M&eacute;rito dos estudantes ficou tamb&eacute;m marcada pela interven&ccedil;&atilde;o de Jos&eacute; Manuel Constantino, presidente do Comit&eacute; Ol&iacute;mpico de Portugal, e pela assinatura de um protocolo de coopera&ccedil;&atilde;o entre as duas institui&ccedil;&otilde;es.</p>
+                    <p align="right" class="publicado" style="font-size:12px"><i>publicado em</i>: quarta-feira, 14 de Maio de 2014</p>
+            </div>
+</body>
+</html>
