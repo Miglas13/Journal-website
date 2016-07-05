@@ -1,0 +1,85 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html
+<head>
+	<title>Di&aacute;rio Lusitano </title>
+	<link rel="stylesheet" type="text/css" href="css/layout-3.css">
+    <link rel="shortcut icon" href="img/iconesite.ico">
+<!-- script que apresenta data e hora atual-->
+        <script>
+
+function EscreveData() {
+var mydate=new Date()
+var year=mydate.getYear()
+if (year < 1000)
+year+=1900
+var day=mydate.getDay()
+var month=mydate.getMonth()
+var daym=mydate.getDate()
+if (daym<10)
+daym="0"+daym
+var dayarray=new
+Array("Domingo","Segunda-feira","Ter&ccedil;a-feira","Quarta-feira","Quinta-feira","Sexta-feira","S&aacute;bado")
+var montharray=new
+Array("Janeiro","Fevereiro","Mar&ccedil;o","Abril","Maio","Junho","Julho","Agosto","Setembro","Outubro","Novembro","Dezembro")
+document.write(""+dayarray[day]+", "+daym+" de "+montharray[month]+" de "+year+"</b></font></small>")
+}
+
+function EscreveHora() {
+agora = new Date (); horas = agora.getHours ();
+minutos = agora.getMinutes ();
+if (horas < 10) horas = "0" + horas;
+if (minutos < 10) minutos = "0" + minutos;
+document.write(horas+":" +minutos+ "h");
+}
+
+</script>
+</head>
+
+<body>
+	<div class="container">
+    <div class="logo">
+    	<img src="img/logotiposite.jpg">
+    </div>
+    <!--Menu-->
+   		<div class="menu">
+    		<ul class="menu-top" style="padding-top:8px">
+            	<li>
+                	<a href="index.html">In&iacute;cio</a>
+              </li>
+                <li>
+                	<a href="cultura.html">Cultura</a>
+              </li>
+                <li>
+                	<a href="politica.html">Pol&iacute;tica</a>
+              </li>
+                <li>
+                	<a href="desporto.html">Desporto</a>
+              </li>
+    			<li>
+                	<a href="ubi.html">UBI</a>
+              </li>
+			</ul>
+        </div>
+    <!--Main-->
+    <div class="main">
+    		<p align="right" class="data-hora"><script>EscreveData();</script>
+                <script>EscreveHora()</script></p>
+                <div class="newprincipal-centro">
+            	<p><img src="img/12.png"></p>
+                <p style="font-size:32px">&ldquo;Diagn&oacute;stico: Desgosto Patol&oacute;gico&rdquo; distinguido em festival espanhol</p>
+                	<p style="font-size:24px">A produ&ccedil;&atilde;o do TeatrUBI e da ASTA recebeu o Pr&eacute;mio Suso D&iacute;az &ndash; Melhor Resolu&ccedil;&atilde;o T&eacute;cnica na 19.&ordf; edi&ccedil;&atilde;o da MITEU &ndash; Mostra Internacional de Teatro Universit&aacute;rio de Ourense.</p>
+                    <p class="corpo">O espet&aacute;culo &ldquo;Diagn&oacute;stico: Desgosto Patol&oacute;gico&rdquo; foi distinguido na 19.&ordf; edi&ccedil;&atilde;o da MITEU &ndash; Mostra Internacional de Teatro Universit&aacute;rio de Ourense. A produ&ccedil;&atilde;o do TeatrUBI &ndash; Grupo de Teatro da Universidade da Beira Interior e da ASTA &ndash; Associa&ccedil;&atilde;o de Teatro e Outras Artes, recebeu o Pr&eacute;mio Suso D&iacute;az &ndash; Melhor Resolu&ccedil;&atilde;o T&eacute;cnica.</p>
+
+					<p class="corpo">A produ&ccedil;&atilde;o estreou no &uacute;ltimo Ciclo de Teatro Universit&aacute;rio da Beira Interior, que decorreu em mar&ccedil;o na Covilh&atilde;. Criada e dirigida por Rui Pires, resulta da adapta&ccedil;&atilde;o livre a partir de 4:48 PSICOSE, de Sarah Kane. As companhias covilhanenses estiveram no MITEU que &eacute; considerado o maior festival de teatro universit&aacute;rio do mundo, entre 7 e 9 de maio.</p>
+
+					<p class="corpo">A cerim&oacute;nia de entrega de pr&eacute;mios decorreu no Teatro Principal daquela cidade galega, no dia 9, tendo o galard&atilde;o sido entregue ao diretor do TeatrUBI, Rui Pires. A edi&ccedil;&atilde;o n&uacute;mero 19 da MITEU decorreu entre 25 de abril e 9 de maio, onde foram apresentados 34 espet&aacute;culos entre companhias profissionais e universit&aacute;rias provenientes de nove pa&iacute;ses (Jap&atilde;o, Guin&eacute; Equatorial, Angola, Brasil, Esc&oacute;cia, It&aacute;lia, Portugal e Espanha).</p>
+
+					<p class="corpo">Esta foi a 18.&ordf; participa&ccedil;&atilde;o do TeatrUBI naquele festival internacional, onde alcan&ccedil;ou a 11.&ordf; distin&ccedil;&atilde;o, s&oacute; nesta mostra. O Pr&eacute;mio Suso D&iacute;az j&aacute; tinha sido atribu&iacute;do ao espet&aacute;culo &ldquo;Parecia que dan&ccedil;&aacute;vamos. Tu vestido de pr&iacute;ncipe e eu nua.&rdquo;, em 2013 .&ldquo;empresta-me o teu cora&ccedil;&atilde;o&rdquo; (2010) e &ldquo;mata-dor&rdquo; (2012) receberam men&ccedil;&otilde;es honrosas; &ldquo;marca&rsquo;dor&rdquo; (2009) e &ldquo;son[h]o dor-mente&rdquo; (2011), foram galardoados com o pr&eacute;mio do j&uacute;ri. Todos estes espet&aacute;culos contam com cria&ccedil;&atilde;o e dire&ccedil;&atilde;o de Rui Pires.</p>
+
+					<p class="corpo">Em 2005, &eacute; galardoado com o pr&eacute;mio do j&uacute;ri para o espet&aacute;culo &ldquo;O Corvo&rdquo;, encena&ccedil;&atilde;o de Lorena Briscoe; em 2003, uma men&ccedil;&atilde;o honrosa para o espet&aacute;culo &ldquo;A ferida no pesco&ccedil;o&rdquo;, encena&ccedil;&atilde;o de Susana Vidal; e, em 1999, recebe o pr&eacute;mio do j&uacute;ri para o espet&aacute;culo &ldquo;Cada dia sou algu&eacute;m diferente, cada dia o mesmo&rdquo;, que teve encena&ccedil;&atilde;o de Marco Ferreira.</p>
+
+					<p class="corpo">O espet&aacute;culo, cuja interpreta&ccedil;&atilde;o est&aacute; a cargo de Gra&ccedil;a Faustino, Gon&ccedil;alo de Morais, In&ecirc;s Santos, Joanna Santos e Marisa Ingl&ecirc;s foi j&aacute; apresentado nas cidades espanholas de Corunha, Santiago de Compostela, Lugo e Ourense. &ldquo;At&eacute; final do ano o espet&aacute;culo ainda vai poder ser visto noutras cidades, quer nacionais quer internacionais, caso se consigam apoios para as viagens&rdquo;, segundo o TeatrUBI.</p>
+                    <p align="right" class="publicado" style="font-size:12px"><i>publicado em</i>: quarta-feira, 14 de Maio de 2014</p>
+            </div>
+</body>
+</html>

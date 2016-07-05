@@ -1,0 +1,86 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html
+<head>
+	<title>Di&aacute;rio Lusitano </title>
+	<link rel="stylesheet" type="text/css" href="css/layout-3.css">
+    <link rel="shortcut icon" href="img/iconesite.ico">
+<!-- script que apresenta data e hora atual-->
+        <script>
+
+function EscreveData() {
+var mydate=new Date()
+var year=mydate.getYear()
+if (year < 1000)
+year+=1900
+var day=mydate.getDay()
+var month=mydate.getMonth()
+var daym=mydate.getDate()
+if (daym<10)
+daym="0"+daym
+var dayarray=new
+Array("Domingo","Segunda-feira","Ter&ccedil;a-feira","Quarta-feira","Quinta-feira","Sexta-feira","S&aacute;bado")
+var montharray=new
+Array("Janeiro","Fevereiro","Mar&ccedil;o","Abril","Maio","Junho","Julho","Agosto","Setembro","Outubro","Novembro","Dezembro")
+document.write(""+dayarray[day]+", "+daym+" de "+montharray[month]+" de "+year+"</b></font></small>")
+}
+
+function EscreveHora() {
+agora = new Date (); horas = agora.getHours ();
+minutos = agora.getMinutes ();
+if (horas < 10) horas = "0" + horas;
+if (minutos < 10) minutos = "0" + minutos;
+document.write(horas+":" +minutos+ "h");
+}
+
+</script>
+</head>
+
+<body>
+	<div class="container">
+    <div class="logo">
+    	<img src="img/logotiposite.jpg">
+    </div>
+    <!--Menu-->
+   		<div class="menu">
+    		<ul class="menu-top" style="padding-top:8px">
+            	<li>
+                	<a href="index.html">In&iacute;cio</a>
+              </li>
+                <li>
+                	<a href="cultura.html">Cultura</a>
+              </li>
+                <li>
+                	<a href="politica.html">Pol&iacute;tica</a>
+              </li>
+                <li>
+                	<a href="desporto.html">Desporto</a>
+              </li>
+    			<li>
+                	<a href="ubi.html">UBI</a>
+              </li>
+			</ul>
+        </div>
+    <!--Main-->
+    <div class="main">
+    		<p align="right" class="data-hora"><script>EscreveData();</script>
+                <script>EscreveHora()</script></p>
+                <div class="newprincipal-centro">
+            	<p><img src="img/11.png"></p>
+                <p style="font-size:32px">Teatro Universit&aacute;rio anima Covilh&atilde;</p>
+                	<p style="font-size:24px">De 14 a 29 de Mar&ccedil;o</p>
+                    <p class="corpo">&ldquo;O teatro deveria ser uma cadeira universit&aacute;ria&rdquo;. A convic&ccedil;&atilde;o &eacute; de Rui Pires, presidente do TeatrUBI (Grupo de Teatro Universit&aacute;rio da UBI que comemora 25 anos de vida), que organiza de 14 a 29 de Mar&ccedil;o o 18&ordm; ciclo de teatro universit&aacute;rio da Beira Interior, no Teatro Municipal da Covilh&atilde;, que contar&aacute; com grupos portugueses, espanh&oacute;is e, pela primeira vez, com um grupo vindo de It&aacute;lia.</p>
+
+					<p class="corpo">Numa altura em que nem todos os jovens que entram no Ensino Superior &ldquo;desperdi&ccedil;am&rdquo; o seu tempo em actividades extra-curriculares, Rui Pires mostra a sua satisfa&ccedil;&atilde;o por contar com um grupo &ldquo;da extens&atilde;o de outras universidades bem maiores que n&oacute;s&rdquo;. Por&eacute;m, nem sempre as rela&ccedil;&otilde;es com as reitorias t&ecirc;m sido as melhores, e a sensibilidade para o teatro nem sempre foi positiva. Uma situa&ccedil;&atilde;o que est&aacute; a mudar. &ldquo;Tem sido uma batalha ao longo de 25 anos. As rela&ccedil;&otilde;es com os reitores. T&ecirc;m vindo a ser cada vez melhores, e com este novo reitor houve um salto qualitativo&rdquo; explica Rui Pires, que n&atilde;o pede nenhum regime de excep&ccedil;&atilde;o para alunos que dedicam parte da sua vida ao teatro, mas pelo menos, alguma compreens&atilde;o. &ldquo;N&atilde;o pedimos que os alunos sejam beneficiados. Apenas que n&atilde;o sejam prejudicados quando t&ecirc;m frequ&ecirc;ncias e t&ecirc;m que faltar &agrave;s mesmas quando est&atilde;o representa&ccedil;&atilde;o da UBI&rdquo; vinca este respons&aacute;vel.</p>
+
+					<p class="corpo">O 18&ordm; ciclo de Teatro est&aacute; or&ccedil;amentado em 20 mil euros. &ldquo;Atinge a maioridade. &Eacute; o mais antigo do Pa&iacute;s&rdquo; diz, com orgulho, Rui Pires. Que lembra tamb&eacute;m que este &eacute; &ldquo;o 14&ordm; ano que n&atilde;o temos um tost&atilde;o da C&acirc;mara&rdquo;. Rui Pires recorda que desde 2000 que a autarquia apenas d&aacute; apoio log&iacute;stico, com a ced&ecirc;ncia do Teatro Municipal, mas dinheiro&#8230; zero. Por&eacute;m, diz j&aacute; ter tido uma conversa com o respons&aacute;vel pela pasta da cultura na C&acirc;mara, Jorge Torr&atilde;o, tendo ficado prometido, no futuro, outro tipo de ajuda. O festival &eacute; realizado, mais uma vez, em co-produ&ccedil;&atilde;o com a ASTA (Associa&ccedil;&atilde;o de Teatro e Outras Artes). &ldquo;De outra maneira seria imposs&iacute;vel&rdquo; frisa Rui Pires. S&eacute;rgio Novo, da ASTA, lembra que esta liga&ccedil;&atilde;o j&aacute; existe &ldquo;h&aacute; v&aacute;rios anos, e que o TeatrUBI &ldquo;tem desenvolvido um trabalho exemplar&rdquo;.</p>
+
+					<p style="font-size:18px"><b>Estreia de pe&ccedil;a na abertura</b></p>
+
+					<p class="corpo">&ldquo;Diagn&oacute;stico: Desgosto Patol&oacute;gico&rdquo; &eacute; o nome da pe&ccedil;a que estreia o festival, dias 14 e 15, &agrave;s 21 horas e 30. Uma produ&ccedil;&atilde;o do TeatrUBI/ASTA, em estreia, que segundo Rui Pires aborda o tema do &ldquo;sentimento e rela&ccedil;&otilde;es&rdquo; na actualidade.</p>
+					<p class="corpo">Depois, a 17, a Ajidanha apresenta &ldquo;&Agrave; deriva&rdquo; e dia 18, o Grupo de Teatro Acad&eacute;mico de Leiria mostra &ldquo;Suic&iacute;dio de amor&rdquo;. No dia seguinte, os espanh&oacute;is de Ourense apresentam &ldquo;Sil&ecirc;ncio por favor&rdquo;. E dia 20, o grupo da Faculdade de Ci&ecirc;ncias da Universidade de Lisboa apresenta &ldquo;Hist&oacute;rias a preto e cores&rdquo;. No dia 21, a Aula de Teatro de Compostela apresenta &ldquo;APNEA 2&ordf; Variaci&oacute;n&rdquo; e no dia seguinte, outro grupo espanhol, o Tr&eacute;cola de Ourense, apresenta &ldquo;A leveza&rdquo;. No dia 22, a turma de artes da Escola Secund&aacute;ria Campos Melo mostra &ldquo;Lux e Umbra, Creando&rdquo;, e dia 22, a ASTA, com a Tr&eacute;cola de Ourense, apresenta &ldquo;Amador&rdquo;.</p>
+
+					<p class="corpo">O NC &eacute; media partner do evento. Na pr&oacute;xima semana h&aacute; bilhetes para oferecer.</p>
+                    <p align="right" class="publicado" style="font-size:12px"><i>publicado em</i>: quarta-feira, 5 de Mar&ccedil;o de 2014</p>
+            </div>
+</body>
+</html>

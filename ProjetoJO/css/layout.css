@@ -1,0 +1,203 @@
+body{
+	background:#D2D2D2;
+	margin:0;
+	padding:0;
+	font-family:Arial, Helvetica, sans-serif;
+}
+a:hover{
+	text-decoration:underline;
+}
+a:visited{
+	color:#2E43B8;
+}
+a{
+	text-decoration:none;
+	color:#000;
+	font-weight:bold;
+}
+.container{
+	margin:0 auto;
+	width:900px;
+	height:auto;
+}
+.logo img{
+	width:900;
+	height:200;
+	border-bottom-left-radius:10px;
+	border-bottom-right-radius:10px;
+}
+ul{
+	list-style:none;
+}
+/*Ajustar menu(caixa) */
+.menu{
+	background:#00C;
+	width:900px;
+	height:35px;
+	margin:-10 0 -10 0;
+	border-radius:10;
+}
+.menu li{
+	display:inline;
+	padding-left:0;
+	margin:0;
+}
+/*Ajustar menu(texto)*/
+.menu-top li a{
+	width:50px;
+	height:15px;
+	padding-right:50px;
+	padding-left:51px;
+	text-align:center;
+	color:#FFF;
+	text-shadow:1px 1px #000000;
+}
+.menu ul li a:hover{
+	background-color:#09F;
+	padding-right:50px;
+	padding-left:51;
+	padding-top:8;
+	padding-bottom:8;
+	text-decoration:none;
+	color:#FFF;
+	text-shadow:1px 1px #000000;
+	border-radius: 10px;
+}
+
+.publicado{
+	margin-top:125;
+	padding-right:25px;
+}
+/* Main */
+
+.main{
+	width:900px;
+	height:auto;
+	margin:15px 0 15px 0;
+}
+.data-hora{
+	background-color:#FFF;
+	padding:15px 10px 15px 5px;
+	margin:auto;
+	box-shadow:0 0 2px 0 #333333;
+	border-bottom:5px solid #00C;
+	font-family:"Arial Black", Gadget, sans-serif;
+}
+.newprincipal-centro{
+	width:900;
+	height:370;
+	margin-bottom:15px;
+	background-color:#FFF;
+	box-shadow:0 0 1px 0 #333333;
+	border-bottom:5px solid #00C;
+	padding-top:5px;
+}
+.newprincipal-centro a{
+	text-align:right;
+	font-size:36px;
+	padding:0 5px 0 5px;
+}
+.newprincipal-centro img{
+	width:350px;
+	height:350px;
+	float:left;
+	padding:5px 10px 10 10px;
+}
+.menu-central{
+	background:#FFF;
+	width:900;
+	height:auto;
+	margin-bottom:15px;
+	box-shadow:0 0 1px 0 #333333;
+	border-bottom:5px solid #00C;
+}
+.destaques-esq{
+	width:250;
+	height:auto;
+}
+.destaques-esq ul{
+	margin-top:0;
+	padding:20px 20px;
+}
+.menu-esq img{
+	width:200;
+	height:auto;
+	
+}
+.recentes-centro{
+	width:auto;
+	height:auto;
+}
+.recentes-centro ul{
+	padding:10px;
+}
+.ultimas-dir{
+	width:auto;
+	height:auto;
+	float:right;
+}
+.ultima-hora{
+	width:250;
+	height:auto;
+	float:right;
+}
+.ultima-hora ul{
+	margin:0;
+	padding-left:10px;
+	padding-right:5px;
+}
+.ultima-hora p{
+	padding-left:10px;
+	font-size:24px;
+	text-decoration:underline;
+}
+.cronica{
+	width:250;
+	height:auto;
+	float:right;
+}
+.cronica p{
+	padding-left:10px;
+	font-size:24px;
+	text-decoration:underline;
+}
+.videos{
+	width:auto;
+	height:auto;
+	background-color:#FFF;
+	box-shadow:0 0 1px 0 #333333;
+	padding:5px 5px 5px 5px;
+	border-bottom:5px solid #00C;
+}
+.videos h2{
+	padding:10px 10px;
+}
+.footer{
+	width:900px;
+	height:auto;
+	margin-top:10px;
+	float:left;
+	background:#FFF;
+	margin-bottom:15px;
+	box-shadow:0 0 1px 0 #333333;
+	border-bottom:5px solid #00C;
+}
+.footer1{
+	width:245px;
+	height:auto;
+	float:left;
+	margin-left:150px;
+}
+.img1{
+	width:100;
+	height:auto;
+	margin-left:100px;
+	padding-top:10px;
+}
+.img2{
+	width:100;
+	height:auto;
+	margin-left:100px;
+	padding-top:10px;
+	padding-bottom:10px;
+}

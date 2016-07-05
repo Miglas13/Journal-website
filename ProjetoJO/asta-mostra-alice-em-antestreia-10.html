@@ -1,0 +1,79 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html
+<head>
+	<title>Di&aacute;rio Lusitano </title>
+	<link rel="stylesheet" type="text/css" href="css/layout-3.css">
+    <link rel="shortcut icon" href="img/iconesite.ico">
+<!-- script que apresenta data e hora atual-->
+        <script>
+
+function EscreveData() {
+var mydate=new Date()
+var year=mydate.getYear()
+if (year < 1000)
+year+=1900
+var day=mydate.getDay()
+var month=mydate.getMonth()
+var daym=mydate.getDate()
+if (daym<10)
+daym="0"+daym
+var dayarray=new
+Array("Domingo","Segunda-feira","Ter&ccedil;a-feira","Quarta-feira","Quinta-feira","Sexta-feira","S&aacute;bado")
+var montharray=new
+Array("Janeiro","Fevereiro","Mar&ccedil;o","Abril","Maio","Junho","Julho","Agosto","Setembro","Outubro","Novembro","Dezembro")
+document.write(""+dayarray[day]+", "+daym+" de "+montharray[month]+" de "+year+"</b></font></small>")
+}
+
+function EscreveHora() {
+agora = new Date (); horas = agora.getHours ();
+minutos = agora.getMinutes ();
+if (horas < 10) horas = "0" + horas;
+if (minutos < 10) minutos = "0" + minutos;
+document.write(horas+":" +minutos+ "h");
+}
+
+</script>
+</head>
+
+<body>
+	<div class="container">
+    <div class="logo">
+    	<img src="img/logotiposite.jpg">
+    </div>
+    <!--Menu-->
+   		<div class="menu">
+    		<ul class="menu-top" style="padding-top:8px">
+            	<li>
+                	<a href="index.html">In&iacute;cio</a>
+              </li>
+                <li>
+                	<a href="cultura.html">Cultura</a>
+              </li>
+                <li>
+                	<a href="politica.html">Pol&iacute;tica</a>
+              </li>
+                <li>
+                	<a href="desporto.html">Desporto</a>
+              </li>
+    			<li>
+                	<a href="ubi.html">UBI</a>
+              </li>
+			</ul>
+        </div>
+    <!--Main-->
+    <div class="main">
+    		<p align="right" class="data-hora"><script>EscreveData();</script>
+                <script>EscreveHora()</script></p>
+                <div class="newprincipal-centro">
+            	<p><img src="img/10.png"></p>
+                <p style="font-size:32px">ASTA mostra &ldquo;Alice&rdquo; em  antestreia</p>
+                	<p style="font-size:24px">A primeira vers&atilde;o da nova produ&ccedil;&atilde;o da Associa&ccedil;&atilde;o de Teatro e Outras Artes vai ser mostrada sexta-feira.</p>
+                    <p class="corpo">ASTA - Associa&ccedil;&atilde;o de Teatro e Outras Artes apresenta sexta-feira, dia 23, a pe&ccedil;a &ldquo;Alice&rdquo;, a sua mais recente produ&ccedil;&atilde;o. A antestreia &eacute; &agrave;s 10h30, no espa&ccedil;o do Cinema do Serra Shopping, na Covilh&atilde;. A sess&atilde;o conta com a presen&ccedil;a das crian&ccedil;as do infant&aacute;rio da Santa Casa da Miseric&oacute;rdia da Covilh&atilde;.</p>
+
+					<p class="corpo">Alice &eacute; um espet&aacute;culo infantil com encena&ccedil;&atilde;o de Ant&oacute;nio Abern&uacute;, a partir da obra &ldquo;A Verdadeira Hist&oacute;ria da Alice&rdquo;, de Rita Taborda Duarte. Conta com a interpreta&ccedil;&atilde;o dos atores Gra&ccedil;a Faustino e Jos&eacute; Meira, figurinos a cargo de S&eacute;rgio Novo e desenho de luz e opera&ccedil;&atilde;o t&eacute;cnica por Jo&atilde;o Cantador. A obra &ldquo;A Verdadeira Hist&oacute;ria da Alice&rdquo; venceu, em 2003, o pr&eacute;mio Branquinho da Fonseca - Expresso/Gulbenkian e foi selecionada para o plano nacional de leitura do 4&ordm; ano do 1&ordm; Ciclo.</p>
+
+					<p class="corpo">A mais recente produ&ccedil;&atilde;o da Associa&ccedil;&atilde;o de Teatro e Outras Artes tem tamb&eacute;m a sua estreia marcada para dia 1 de Junho, Dia Mundial da Crian&ccedil;a.</p>
+                    <p align="right" class="publicado" style="font-size:12px"><i>publicado em</i>: quarta-feira, 14 de Maio de 2014</p>
+            </div>
+</body>
+</html>

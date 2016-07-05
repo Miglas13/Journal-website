@@ -1,0 +1,87 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html
+<head>
+	<title>Di&aacute;rio Lusitano </title>
+	<link rel="stylesheet" type="text/css" href="css/layout-3.css">
+    <link rel="shortcut icon" href="img/iconesite.ico">
+<!-- script que apresenta data e hora atual-->
+        <script>
+
+function EscreveData() {
+var mydate=new Date()
+var year=mydate.getYear()
+if (year < 1000)
+year+=1900
+var day=mydate.getDay()
+var month=mydate.getMonth()
+var daym=mydate.getDate()
+if (daym<10)
+daym="0"+daym
+var dayarray=new
+Array("Domingo","Segunda-feira","Ter&ccedil;a-feira","Quarta-feira","Quinta-feira","Sexta-feira","S&aacute;bado")
+var montharray=new
+Array("Janeiro","Fevereiro","Mar&ccedil;o","Abril","Maio","Junho","Julho","Agosto","Setembro","Outubro","Novembro","Dezembro")
+document.write(""+dayarray[day]+", "+daym+" de "+montharray[month]+" de "+year+"</b></font></small>")
+}
+
+function EscreveHora() {
+agora = new Date (); horas = agora.getHours ();
+minutos = agora.getMinutes ();
+if (horas < 10) horas = "0" + horas;
+if (minutos < 10) minutos = "0" + minutos;
+document.write(horas+":" +minutos+ "h");
+}
+
+</script>
+</head>
+
+<body>
+	<div class="container">
+    <div class="logo">
+    	<img src="img/logotiposite.jpg">
+    </div>
+    <!--Menu-->
+   		<div class="menu">
+    		<ul class="menu-top" style="padding-top:8px">
+            	<li>
+                	<a href="index.html">In&iacute;cio</a>
+              </li>
+                <li>
+                	<a href="cultura.html">Cultura</a>
+              </li>
+                <li>
+                	<a href="politica.html">Pol&iacute;tica</a>
+              </li>
+                <li>
+                	<a href="desporto.html">Desporto</a>
+              </li>
+    			<li>
+                	<a href="ubi.html">UBI</a>
+              </li>
+			</ul>
+        </div>
+    <!--Main-->
+    <div class="main">
+    		<p align="right" class="data-hora"><script>EscreveData();</script>
+                <script>EscreveHora()</script></p>
+                <div class="newprincipal-centro">
+            	<p><img src="img/7.png"></p>
+                <p style="font-size:32px">Serranos empatam nos A&ccedil;ores no fecho da II Liga</p>
+                	<p style="font-size:24px">A desloca&ccedil;&atilde;o ao campo do Santa Clara deu em empate a uma bola na &uacute;ltima jornada do campeonato.</p>
+                    <p class="corpo">O Sporting da Covilh&atilde; fechou a participa&ccedil;&atilde;o na II Liga deste ano com um empate a uma bola no terreno do Santa Clara. O empate permitiu aos a&ccedil;orianos terminar o campeonato numa posi&ccedil;&atilde;o acima dos &ldquo;le&otilde;es da Serra&rdquo;, que se classificaram em 16.&ordm;, ambos com 48 pontos.</p>
+
+					<p class="corpo">Os da casa chegaram ao golo cedo, &agrave; passagem do minuto 11. Atrav&eacute;s da marca&ccedil;&atilde;o de um pontap&eacute; de canto, Hugo Santos desviou a bola para o fundo da baliza, ao segundo poste.</p>
+<p> O empate chegou ainda na primeira parte, aos 31 minutos, quando Carlos Manuel cobrou um livre direto e, com um pontap&eacute; forte, bateu o guardi&atilde;o Serginho.</p>
+
+					<p class="corpo">Tamb&eacute;m de bola parada, Pedro Cervantes levou perigo &agrave; baliza serrana, com a bola a passar por cima da barra de Taborda.</p>
+<p> A etapa complementar ficou marcada pelo futebol jogado pelo Santa Clara, mais atacante do que o opositor. Depois de desperdi&ccedil;ar um lance de golo por JP, contou com mais uma oportunidade, desta feita ao minuto 79, quando um remate em arco saiu por cima da baliza.</p>
+
+					<p class="corpo">A cinco minutos do final, Pedro Cervantes endossou a bola a Jo&atilde;o Pedro que apenas conseguiu rematar &agrave; figura do guarda-redes Taborda.</p>
+
+					<p class="corpo">Com este resultado, ficam seladas as contas da II Liga, ganha pelo Moreirense. O FC Penafiel assegura o outro lugar que garante a subida de divis&atilde;o, enquanto o Atl&eacute;tico &eacute; despromovido.</p>
+
+					<p class="corpo">Quanto ao Sporting da Covilh&atilde;, termina a &eacute;poca com 13 vit&oacute;rias, nove empates e 20 derrotas. Na pr&oacute;xima &eacute;poca, volta a competir no segundo mais importante campeonato do futebol portugu&ecirc;s.</p>
+                    <p align="right" class="publicado" style="font-size:12px"><i>publicado em</i>: quarta-feira, 14 de Maio de 2014</p>
+            </div>
+</body>
+</html>

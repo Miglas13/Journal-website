@@ -1,0 +1,80 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html
+<head>
+	<title>Di&aacute;rio Lusitano </title>
+	<link rel="stylesheet" type="text/css" href="css/layout-3.css">
+    <link rel="shortcut icon" href="img/iconesite.ico">
+<!-- script que apresenta data e hora atual-->
+        <script>
+
+function EscreveData() {
+var mydate=new Date()
+var year=mydate.getYear()
+if (year < 1000)
+year+=1900
+var day=mydate.getDay()
+var month=mydate.getMonth()
+var daym=mydate.getDate()
+if (daym<10)
+daym="0"+daym
+var dayarray=new
+Array("Domingo","Segunda-feira","Ter&ccedil;a-feira","Quarta-feira","Quinta-feira","Sexta-feira","S&aacute;bado")
+var montharray=new
+Array("Janeiro","Fevereiro","Mar&ccedil;o","Abril","Maio","Junho","Julho","Agosto","Setembro","Outubro","Novembro","Dezembro")
+document.write(""+dayarray[day]+", "+daym+" de "+montharray[month]+" de "+year+"</b></font></small>")
+}
+
+function EscreveHora() {
+agora = new Date (); horas = agora.getHours ();
+minutos = agora.getMinutes ();
+if (horas < 10) horas = "0" + horas;
+if (minutos < 10) minutos = "0" + minutos;
+document.write(horas+":" +minutos+ "h");
+}
+
+</script>
+</head>
+
+<body>
+	<div class="container">
+    <div class="logo">
+    	<img src="img/logotiposite.jpg">
+    </div>
+    <!--Menu-->
+   		<div class="menu">
+    		<ul class="menu-top" style="padding-top:8px">
+            	<li>
+                	<a href="index.html">In&iacute;cio</a>
+              </li>
+                <li>
+                	<a href="cultura.html">Cultura</a>
+              </li>
+                <li>
+                	<a href="politica.html">Pol&iacute;tica</a>
+              </li>
+                <li>
+                	<a href="desporto.html">Desporto</a>
+              </li>
+    			<li>
+                	<a href="ubi.html">UBI</a>
+              </li>
+			</ul>
+        </div>
+    <!--Main-->
+    <div class="main">
+    		<p align="right" class="data-hora"><script>EscreveData();</script>
+                <script>EscreveHora()</script></p>
+                <div class="newprincipal-centro">
+            	<p><img src="img/16.png"></p>
+                <p style="font-size:32px">Amea&ccedil;a de boicote &agrave;s elei&ccedil;&otilde;es devido ao fecho de escolas</p>
+                	<p style="font-size:24px">Em Vales do Rio, povo pode n&atilde;o votar no domingo</p>
+                    <p class="corpo">No pr&oacute;ximo domingo, 25, nos Vales do Rio, pode haver boicote &agrave;s elei&ccedil;&otilde;es europeias. A proposta foi discutida na passada quinta-feira, 15, numa assembleia de freguesia extraordin&aacute;ria da Uni&atilde;o de Freguesias de Peso e Vales do Rio, que tinha como ponto &uacute;nico a discuss&atilde;o do poss&iacute;vel encerramento da escola EB1 de Vales do Rio, que funciona como sala de apoio.</p>
+
+					<p class="corpo">Segundo o autarca local, Rui Amaro, os pais das crian&ccedil;as &ldquo;levantaram a hip&oacute;tese de se fazer o boicote &agrave;s elei&ccedil;&otilde;es&rdquo;. Esta ter&ccedil;a-feira (j&aacute; ap&oacute;s o fecho desta edi&ccedil;&atilde;o) estava marcada uma nova reuni&atilde;o, para decidir a tomada de posi&ccedil;&atilde;o, mas Rui Amaro lembra a indigna&ccedil;&atilde;o dos encarregados de educa&ccedil;&atilde;o. &ldquo;Eles n&atilde;o aceitam que os seus filhos tenham que ir para o Dominguiso. Est&aacute; muita coisa em causa, como, por exemplo, as condi&ccedil;&otilde;es de seguran&ccedil;a. Esta &eacute; uma proposta estranha, at&eacute; porque, por exemplo, ter&aacute; que ser a C&acirc;mara a assegurar transportes para l&aacute;. E tamb&eacute;m as refei&ccedil;&otilde;es. Um contrassenso, j&aacute; que disponibiliz&aacute;vamos uma carinha para levar os mi&uacute;dos a almo&ccedil;ar ao centro de dia. Tamb&eacute;m fizemos alguns investimentos na escola e agora fazem-nos isto&rdquo; lamenta Rui Amaro.</p>
+
+					<p class="corpo">O autarca local lembra que a escola da aldeia tem 14 alunos, e que dentro de dois anos pode subir esse n&uacute;mero para 18, pelo que o crit&eacute;rio de 21 alunos para fechar uma escola n&atilde;o far&aacute; muito sentido. &ldquo;N&oacute;s somos uma escola em crescimento. A portaria diz que para se fechar tamb&eacute;m &eacute; importante um parecer da C&acirc;mara, que j&aacute; disse que n&atilde;o aceitava o fecho de escolas no concelho. J&aacute; em 2010 isso aconteceu e, na altura, a autarquia impediu o fecho. Espero a mesma atitude, porque esta medida n&atilde;o se justifica&rdquo; diz Rui Amaro.</p>
+                    <p align="right" class="publicado" style="font-size:12px"><i>publicado em</i>: Domingo, 25 de Maio de 2014</p>
+            </div>
+</body>
+</html>
+
